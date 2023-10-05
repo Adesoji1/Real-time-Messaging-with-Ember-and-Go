@@ -16,9 +16,12 @@ This project provides a comprehensive solution for real-time messaging using **E
 
 ## 🛠️ Technologies Used
 
-- ![Ember.js Icon](https://imgs.search.brave.com/DHToW1v6msszbLQ5ax9JU-yMebRY1UPovvLzlH9T1N0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS4zOTI4/NjQ3ODUuNzM0NS9y/YWYsMzYweDM2MCww/NzUsdCxmYWZhZmE6/Y2E0NDNmNDc4Ni5q/cGc) **Ember.js**: A productive, battle-tested JavaScript framework for building modern web applications.
-- ![Go Icon](https://imgs.search.brave.com/WbsQe2Yih9zzjmP3z645d_mnmx_jIOqHI5tCrwCiNCc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS44MzE2/ODcyMzEuMjUzNC9w/b3N0ZXIsNTA0eDQ5/OCxmOGY4ZjgtcGFk/LDYwMHg2MDAsZjhm/OGY4LnU3LmpwZw) **Go (Golang)**: An open-source programming language that makes it easy to build efficient and reliable software.
-- ![PostgreSQL Icon](https://imgs.search.brave.com/yMz2d3lR3SJ1a84hOzYyM89xt7x_LiW3MFKWNFvS4ac/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9wb3N0Z3Jlc3Fs/LnN2Zw.svg) **PostgreSQL**: A powerful, open-source object-relational database system.
+- ![Ember.js Icon](https://imgs.search.brave.com/DHToW1v6msszbLQ5ax9JU-yMebRY1UPovvLzlH9T1N0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS4zOTI4/NjQ3ODUuNzM0NS9y/YWYsMzYweDM2MCww/NzUsdCxmYWZhZmE6/Y2E0NDNmNDc4Ni5q/cGc)
+- **Ember.js**: A productive, battle-tested JavaScript framework for building modern web applications.
+- ![Go Icon](https://imgs.search.brave.com/WbsQe2Yih9zzjmP3z645d_mnmx_jIOqHI5tCrwCiNCc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS44MzE2/ODcyMzEuMjUzNC9w/b3N0ZXIsNTA0eDQ5/OCxmOGY4ZjgtcGFk/LDYwMHg2MDAsZjhm/OGY4LnU3LmpwZw)
+- **Go (Golang)**: An open-source programming language that makes it easy to build efficient and reliable software.
+- ![PostgreSQL Icon](https://imgs.search.brave.com/yMz2d3lR3SJ1a84hOzYyM89xt7x_LiW3MFKWNFvS4ac/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9wb3N0Z3Jlc3Fs/LnN2Zw.svg)
+- **PostgreSQL**: A powerful, open-source object-relational database system.
 
 ## 🚢 Getting Started
 
@@ -26,7 +29,7 @@ This project provides a comprehensive solution for real-time messaging using **E
 
 The version and cli running below 
 
-![embercli](img/ember.png)
+![embercli](./frontend/img/embercli.png)
 
 - Node.js and npm (for Ember.js)
 - Go (for the backend server)
