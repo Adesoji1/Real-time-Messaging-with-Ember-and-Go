@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package messaging;
+
+// option go_package = "local.backend;backend";
+option go_package = "backend/proto;messaging";
+
+
+// Define the user message structure
+message User {
+  string id = 1;
+  string username = 2;
+}
+
+// Define the chat message structure
+message ChatMessage {
+  string id = 1;
+  string text = 2;
+  User sender = 3;
+  int64 timestamp = 4;
+}
+
+// Define a message for client-server connection acknowledgment
+message ConnectionAck {
+  bool success = 1;
+  string message = 2;
+}
+
+// Define the API service
+service ChatService {
+  // Method to send a chat message
+  rpc SendMessage(ChatMessage) returns (ConnectionAck);
+
+  // Method to receive chat messages in real-time
+  rpc ReceiveMessages(User) returns (stream ChatMessage);
+}
