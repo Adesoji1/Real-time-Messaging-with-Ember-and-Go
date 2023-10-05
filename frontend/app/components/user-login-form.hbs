@@ -1,0 +1,11 @@
+<form {{on "submit" this.loginUser}}>
+  <label>
+    Username:
+    {{input type="text" value=username}}
+  </label>
+  <label>
+    Password:
+    {{input type="password" value=password}}
+  </label>
+  <button type="submit">Login</button>
+</form>
